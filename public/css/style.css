@@ -1,1 +1,194 @@
 
+.atasan {
+	display: flex;
+	background: rgb(29, 88, 251);
+	/*font-size: 30px;*/
+	align-items: center;
+	/*height: 200px;*/
+}
+
+.atasan .ikon {
+	padding: 0;
+}
+
+.atasan img {
+	min-height: 73px;
+	max-height: calc(20vw + 1.37rem);
+}
+
+.atasan .judul {
+	margin-left: 40px;
+	padding: 10px 0;
+}
+
+.atasan .judul a {
+	margin: 0;
+}
+
+.atasan .judul a h1 strong {
+	font-family: 'sans-serif';
+	color: #fff;
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: 2rem;
+}
+
+.atasan .judul a h1 span {
+	font-family: 'sans-serif';
+	font-weight: 50;
+	display: block;
+	font-size: .5em;
+	color: white;
+	font-style: italic;
+  letter-spacing: .8rem;
+  /*margin-top: 10px;*/
+}
+
+.atasan .judul ul {
+	display: inline-flex;
+	justify-content: center;
+	padding-left: 0;
+	list-style: none;
+	margin: 10px 0;
+	letter-spacing: .2em;
+	margin-top: 3vw;
+}
+
+.atasan .judul ul li {
+	position: relative;
+	margin: 0 8vw;
+	color: white;
+}
+
+.atasan .judul ul li::before {
+	position: absolute;
+	left: -25px;
+	content: "\2713";
+	color: white;
+}
+
+@media(max-width: 800px) {
+	.atasan .judul ul {
+		display: none;
+	}
+
+	.atasan .judul a h1 strong {
+		letter-spacing: 0;
+	}
+
+	.atasan .judul a h1 span {
+		letter-spacing: 0;
+	}
+
+	.atasan .judul {
+		margin-left: 1vw;
+		padding: 0;
+	}
+}
+
+.card {
+	margin: 2vw;
+	width: 96vw;
+	padding: 2vw;
+	font-size: 14px;
+	font-family: 'sans-serif';
+}
+
+.card .card-title {
+	position: relative;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.card .card-title h1 {
+	position: relative;
+	font-weight: 800;
+	margin: 0;
+}
+
+.card .card-title::after {
+	content: '';
+	position: absolute;
+	bottom: -20px;
+	border-bottom: 2px solid black;
+	height: 1px;
+	width: 140px;
+	transform: translateX(-50%); 
+}
+
+.card p {
+	margin-left: 10px;
+	line-height: 30px;
+	/*text-align: justify;*/
+}
+
+.card img {
+	max-width: 100%;
+}
+
+.alert.alert-info a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.keuntungan-jasa {
+	padding-left: 3vw;
+	list-style: none;
+}
+
+.keuntungan-jasa li {
+	margin-top: 10px;
+}
+
+.keuntungan-jasa li i {
+	padding-right: 10px;
+	color: #3EC1D5;
+}
+
+.kartu-berita {
+	margin: 0 2vw;
+	margin-bottom: 4vw;
+}
+
+.kartu-berita .thumbnail {
+	margin-bottom: 1em;
+}
+
+.kartu-berita .thumbnail img {
+	box-shadow: 2px 2px 1px black;
+}
+
+.kartu-berita .keterangan-kartu {
+	opacity: 60%;
+	height: 2em;
+	display: flex;
+}
+
+.kartu-berita .keterangan-kartu i {
+	padding-right: 10px;
+}
+
+.kartu-berita p {
+	margin: 1px;
+}
+
+footer {
+	font-family: 'sans-serif';
+	display: block;
+	background: rgb(230, 230, 230);
+	width: 100%;
+	height: 3em;
+	padding: 1em;
+}
+
+footer .penutup {
+	letter-spacing: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
